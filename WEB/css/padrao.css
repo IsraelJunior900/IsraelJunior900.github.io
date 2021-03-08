@@ -1,0 +1,23 @@
+body {
+    background-image: url("../imagens/fundo.jpg");
+    background-size: 100%;
+   }
+.texto{
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    color: white;
+    
+}
+.mexer_foto{
+    max-width:200px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: 10px;
+    left: 585px;
+}
+h1{
+    color: white;
+}
+

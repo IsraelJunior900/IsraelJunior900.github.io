@@ -1,0 +1,55 @@
+body{
+    background-image: url(../imagens/fundo.jpg);
+    background-size: 100%;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+p{
+    text-align: center;
+    color: white;
+    font-family: Verdana;
+}
+*{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+.p{
+    position: relative;
+    left: 600px;
+}
+a{
+    color:white
+}
+.gride{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgba(255, 255, 255, .3);
+    margin: 2%;
+}
+.linhatxtfoto{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: 2%;
+    font-size: 30px;
+    text-align: justify;
+}
+.linhatxt{
+    background-color: rgba(7, 114, 69, 0.3) ;
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: 60px;
+    font-size: 30px;
+    text-align: justify;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+}
+.foto2{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    right: 60px;
+    top: 10px;
+}
